@@ -28,24 +28,24 @@ node_modules：npm 加载的项目依赖模块
 public：静态资源目录，如图片、字体、icon 图标 ，其中里面的 index.html 是模板，当运行 npm run build 打包的时候，就是以这里的 index.html 作为模板打包 输出 到 dist 文件夹下生成一个新的 index.html 文件
 
 src：源代码，包含了如下几个目录及文件:
-assest: 放置一些图片，如 logo 等
-assest 里的 css，放入第三方和自己的 css
-components: 这里我一般用来放置一些公共的组件
-components 里的 common：完全独立于该项目的公共组件，可用于其他项目
-components 里的 content:只跟该项目有关的公公共组件
-App.vue:应用组件，我们写的所有组件都是在这个组件之上运行的
-main.js: 项目的核心文件，入口 js 文件
-router: 路由文件夹，决定页面路由的跳转规则
-store: vuex 的状态管理文件
-network：自己创建的，用来存放项目中发起请求的 js 文件模块
-views:页面
-pluginunit：自己创建的，用来存放项目中所使用到的 ui 插件的 js 文件
-common: 存放一些公共的 js 文件 比如, rem.js 用来解决移动端适配问题的
+    assest: 放置一些图片，如 logo 等
+        assest 里的 css，放入第三方和自己的 css
+    components: 这里我一般用来放置一些公共的组件
+        components 里的 common：完全独立于该项目的公共组件，可用于其他项目
+        components 里的 content:只跟该项目有关的公公共组件
+    App.vue:应用组件，我们写的所有组件都是在这个组件之上运行的
+    main.js: 项目的核心文件，入口 js 文件
+    router: 路由文件夹，决定页面路由的跳转规则
+    store: vuex 的状态管理文件
+    network：自己创建的，用来存放项目中发起请求的 js 文件模块
+    views:页面
+    pluginunit：自己创建的，用来存放项目中所使用到的 ui 插件的 js 文件
+    common: 存放一些公共的 js 文件 比如, rem.js 用来解决移动端适配问题的
 
-package.json：项目的配置文件，以及一些插件依赖包的信息
-package-lock.json：插件依赖的详细信息
-babel.config.js ：用来配置一些 ui 插件
-README.md：项目的说明文档，markdown 格式
+    package.json：项目的配置文件，以及一些插件依赖包的信息
+    package-lock.json：插件依赖的详细信息
+    babel.config.js ：用来配置一些 ui 插件
+    README.md：项目的说明文档，markdown 格式
 
 【项目开始】
 一、【创建项目】
