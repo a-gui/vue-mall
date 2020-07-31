@@ -7,11 +7,12 @@ module.exports = {
     resolve: {
       alias: {
         // "@": "src"此为系统配置的别名
-        assets: "@/assets",
-        common: "@/common",
-        components: "@/components",
-        network: "@/network",
-        views: "@/views"
+        'components': '@/components',
+        'content': 'components/content',
+        'common': 'components/common',
+        'assets': '@/assets',
+        'network': '@/network',
+        'views': '@/views',
       }
     }
   }

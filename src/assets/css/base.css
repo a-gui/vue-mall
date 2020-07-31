@@ -21,7 +21,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* 下面是举例，可以直接使用上面定义的变量了 */
+  /* 下面是举例，可以直接使用上面定义的变量了,在home页顶部导航你可以看到使用 */
   /* font-size: var(--font-size); */
 }
 
